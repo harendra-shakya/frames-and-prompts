@@ -1,0 +1,546 @@
+{
+  "title": "Frames & Prompts",
+  "last_reviewed": "2026-10-21",
+  "resources": [
+    {
+      "category": "Visual style atlases & image prompt libraries",
+      "name": "Futurepedia AI Style Atlas",
+      "url": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+      "type": "Style atlas",
+      "what_you_get": "A visual menu of artistic looks across film, anime, comics, games and other imagery, with prompt-oriented references.",
+      "when_to_visit": "When you do not know what visual style to choose for a project.",
+      "access": "Free page; availability may vary",
+      "link_review": "user-provided; crawler restricted"
+    },
+    {
+      "category": "Visual style atlases & image prompt libraries",
+      "name": "Prompt Style Atlas",
+      "url": "https://promptstyleatlas.com/",
+      "type": "Image + prompt gallery",
+      "what_you_get": "Curated styles paired with example images and copyable source prompts.",
+      "when_to_visit": "When you want to test a particular look rather than describe an aesthetic from scratch.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "Visual style atlases & image prompt libraries",
+      "name": "Midlibrary",
+      "url": "https://midlibrary.io/",
+      "type": "Style reference library",
+      "what_you_get": "Midjourney style examples, artist directions and copyable style-reference (SREF) codes.",
+      "when_to_visit": "When you need a consistent style vocabulary or a Midjourney SREF.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "Visual style atlases & image prompt libraries",
+      "name": "Art Styles Pro",
+      "url": "https://www.artstyles.pro/",
+      "type": "Style atlas",
+      "what_you_get": "103 art movements, materials and techniques with examples and prompt-ready terms.",
+      "when_to_visit": "When you want to compare less-obvious art styles side by side.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "Visual style atlases & image prompt libraries",
+      "name": "Gera Tools — Art Style Prompt Library",
+      "url": "https://geratools.com/art-style-prompt-library",
+      "type": "Prompt vocabulary",
+      "what_you_get": "32 art-style families and copy-ready descriptive keywords.",
+      "when_to_visit": "When you need a small, fast set of style descriptors for an image prompt.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "Visual style atlases & image prompt libraries",
+      "name": "AI Visual Prompt Cookbook",
+      "url": "https://github.com/VigoZhao/AI-Visual-Prompt-Cookbook",
+      "type": "Open-source prompt templates",
+      "what_you_get": "Structured JSON visual-style recipes and sample outputs.",
+      "when_to_visit": "When you need repeatable, reusable visual direction across many assets.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "Visual style atlases & image prompt libraries",
+      "name": "Lexica",
+      "url": "https://lexica.art/",
+      "type": "Image search",
+      "what_you_get": "Searchable AI imagery and visual examples.",
+      "when_to_visit": "When you need fast image inspiration before developing your own prompt.",
+      "access": "Free search / paid generation",
+      "link_review": "verified"
+    },
+    {
+      "category": "Visual style atlases & image prompt libraries",
+      "name": "PromptBase",
+      "url": "https://promptbase.com/marketplace",
+      "type": "Prompt marketplace",
+      "what_you_get": "Prompts for image, video, games and design, with previews and model filters.",
+      "when_to_visit": "When you want finished, specialized prompts and are willing to filter paid listings.",
+      "access": "Free and paid",
+      "link_review": "verified"
+    },
+    {
+      "category": "Visual style atlases & image prompt libraries",
+      "name": "Runway Gen-4 Image Prompting Guide",
+      "url": "https://help.runwayml.com/hc/en-us/articles/35694045317139-Gen-4-Image-Prompting-Guide",
+      "type": "Official examples + guide",
+      "what_you_get": "Style keywords, image examples and prompt structures for subject, lighting and composition.",
+      "when_to_visit": "When an image prompt looks attractive but does not reliably convey a precise style.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "Animation, motion graphics & editable templates",
+      "name": "Prompt Motion — Showcase",
+      "url": "https://promptmotion.org/",
+      "type": "Motion prompts + video examples",
+      "what_you_get": "AI-created explainer, promo, UI-motion and showreel clips connected to creator prompts or skills.",
+      "when_to_visit": "When you want to see an animation before adopting the prompt or workflow.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "Animation, motion graphics & editable templates",
+      "name": "Prompt Motion — Prompt Library",
+      "url": "https://promptmotion.org/prompts",
+      "type": "Prompt collection",
+      "what_you_get": "A large searchable motion-design prompt collection spanning 2D, UI animation, promos and 3D scenes.",
+      "when_to_visit": "When you already know the kind of motion you want and need a ready brief.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "Animation, motion graphics & editable templates",
+      "name": "Jitter — Motion Templates",
+      "url": "https://jitter.video/templates/",
+      "type": "Editable templates",
+      "what_you_get": "Animated cards, logos, showreels, social graphics, UI elements and transitions.",
+      "when_to_visit": "When you need editable motion design instead of generative video.",
+      "access": "Free templates; export options vary",
+      "link_review": "verified"
+    },
+    {
+      "category": "Animation, motion graphics & editable templates",
+      "name": "Jitter — Text Animation",
+      "url": "https://jitter.video/templates/text/",
+      "type": "Editable templates",
+      "what_you_get": "Kinetic typography, title reveals, captions and animated text treatments.",
+      "when_to_visit": "When creating lyric videos, title cards, comic narration or typographic shorts.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "Animation, motion graphics & editable templates",
+      "name": "Jitter — AI Effects",
+      "url": "https://jitter.video/templates/jitter-ai/",
+      "type": "Editable motion references",
+      "what_you_get": "Demonstrations of dithering, CRT, morphs, halftone, pixel masks and distortion effects.",
+      "when_to_visit": "When you want a specific reusable motion effect or transition.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "Animation, motion graphics & editable templates",
+      "name": "Rive Marketplace",
+      "url": "https://rive.app/marketplace/",
+      "type": "Interactive animation assets",
+      "what_you_get": "Inspectable/remixable interactive animation assets, including character and UI motion.",
+      "when_to_visit": "When an interface needs reactive character or state-based animation rather than a flat clip.",
+      "access": "Mixed free / paid",
+      "link_review": "verified"
+    },
+    {
+      "category": "Animation, motion graphics & editable templates",
+      "name": "Eyecandy",
+      "url": "https://eyecannndy.com/",
+      "type": "Moving-image technique references",
+      "what_you_get": "Real examples of transitions, editing tricks, visual techniques and filmmaking effects.",
+      "when_to_visit": "When you can picture an effect but do not know the name or how to describe it.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "AI video prompts, scenes & storytelling workflows",
+      "name": "Awesome Video Prompts",
+      "url": "https://awesomevideoprompts.com/en",
+      "type": "Video + copyable prompts",
+      "what_you_get": "Searchable video examples and prompts across Seedance, Kling, Veo and other models.",
+      "when_to_visit": "When you want examples that resemble a target shot, genre or model.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "AI video prompts, scenes & storytelling workflows",
+      "name": "YouMind — Seedance Prompt Gallery",
+      "url": "https://youmind.com/seedance-2-0-prompts",
+      "type": "Video + copyable prompts",
+      "what_you_get": "Community prompt/video pairs across shorts, animation, ads, music videos and game cinematics.",
+      "when_to_visit": "When experimenting with Seedance or studying multi-shot community recipes.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "AI video prompts, scenes & storytelling workflows",
+      "name": "SJinn — Seedance Prompt Collection",
+      "url": "https://sjinn.ai/seedance-prompts",
+      "type": "Video + copyable prompts",
+      "what_you_get": "Seedance video examples with complete scene descriptions and camera/timing details.",
+      "when_to_visit": "When you want longer structured cinematic or anime-style video briefs.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "AI video prompts, scenes & storytelling workflows",
+      "name": "Awesome Seedance Prompts — Resource Index",
+      "url": "https://github.com/seedanceprompts/seedance-prompts",
+      "type": "Open-source directory",
+      "what_you_get": "Links to Seedance video prompt repositories, galleries, guides and tools.",
+      "when_to_visit": "When looking for additional niche Seedance examples beyond a single gallery.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "AI video prompts, scenes & storytelling workflows",
+      "name": "YouMind — Open Seedance Prompts",
+      "url": "https://github.com/YouMind-OpenLab/awesome-seedance-2-prompts",
+      "type": "Open-source prompts",
+      "what_you_get": "Community prompt collection plus consistency guidance and workflows.",
+      "when_to_visit": "When you need prompts in a reusable repository format for research or agents.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "AI video prompts, scenes & storytelling workflows",
+      "name": "Seedance 2 Prompts — Search Skill",
+      "url": "https://github.com/YouMind-OpenLab/seedance-2-prompts-search-skill",
+      "type": "Agent search skill",
+      "what_you_get": "A command-line/agent-friendly way to query a video-prompt gallery.",
+      "when_to_visit": "When an AI agent should find relevant video examples for you automatically.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "AI video prompts, scenes & storytelling workflows",
+      "name": "Toolcentral — Seedance 2 Prompt Export",
+      "url": "https://github.com/Toolcentral-ai/awesome-seedance-2-0-prompts",
+      "type": "Open-source prompt data",
+      "what_you_get": "A source-attributed export of reusable Seedance prompts.",
+      "when_to_visit": "When you want structured prompts that can be inspected or filtered programmatically.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "AI video prompts, scenes & storytelling workflows",
+      "name": "Runway — Text-to-Video Prompting Guide",
+      "url": "https://help.runwayml.com/hc/en-us/articles/42460036199443-Text-to-Video-Prompting-Guide",
+      "type": "Official prompts + outputs",
+      "what_you_get": "Prompt-and-result examples covering scene, subject motion, camera and time.",
+      "when_to_visit": "When text-to-video ignores motion direction or gives a generic shot.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "AI video prompts, scenes & storytelling workflows",
+      "name": "Runway — Gen-4 Video Prompting Guide",
+      "url": "https://help.runwayml.com/hc/en-us/articles/39789879462419-Gen-4-Video-Prompting-Guide",
+      "type": "Official prompts + outputs",
+      "what_you_get": "Image-to-video examples and practices for subject, scene, style and camera movement.",
+      "when_to_visit": "When animating an existing storyboard frame, photo or comic panel.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "AI video prompts, scenes & storytelling workflows",
+      "name": "Runway Academy — Prompting Guide",
+      "url": "https://academy.runwayml.com/guides/prompting-guide",
+      "type": "Educational guide",
+      "what_you_get": "Clear side-by-side guidance for text-to-video versus image-to-video prompts.",
+      "when_to_visit": "When deciding what information belongs in the source image versus the motion prompt.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "Camera movement, shot language & cinematography",
+      "name": "AI Camera Movements — God of Skills",
+      "url": "https://godofskills.com/guides/ai-camera-movements",
+      "type": "Video + copyable prompts",
+      "what_you_get": "46 camera movements grouped into families, each with a prompt and usage note.",
+      "when_to_visit": "When you need to select and describe a precise camera move.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "Camera movement, shot language & cinematography",
+      "name": "Higgsfield Camera Controls",
+      "url": "https://higgsfield.ai/camera-controls",
+      "type": "Camera movement presets",
+      "what_you_get": "Named cinematic camera moves such as bullet time, dolly zoom, crane, orbit and FPV.",
+      "when_to_visit": "When you want ready-made camera choreography and preset names.",
+      "access": "Feature access may require account",
+      "link_review": "verified"
+    },
+    {
+      "category": "Camera movement, shot language & cinematography",
+      "name": "Runway — Camera Terms, Prompts & Examples",
+      "url": "https://help.runwayml.com/hc/en-us/articles/47313504791059-Camera-Terms-Prompts-Examples",
+      "type": "Official video + prompts",
+      "what_you_get": "Rendered demonstrations of shot sizes, camera angles, movements and focus techniques.",
+      "when_to_visit": "When you want to learn the visual effect of a named camera technique.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "Camera movement, shot language & cinematography",
+      "name": "Kapwing — 77 AI Camera Shots and Movements",
+      "url": "https://www.kapwing.com/resources/the-complete-ai-camera-prompt-guide-77-shots-and-movements/",
+      "type": "Camera prompt reference",
+      "what_you_get": "A large guide to camera movements, angles and shot sizes with copyable prompt wording.",
+      "when_to_visit": "When choosing among similar shots or building a systematic shot list.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "Camera movement, shot language & cinematography",
+      "name": "Runway — AI Camera Prompts",
+      "url": "https://runway.com/resources/ai-camera-prompts",
+      "type": "Prompt guide",
+      "what_you_get": "A practical formula for combining framing, speed, movement, lens and reveal.",
+      "when_to_visit": "When a camera prompt needs more precise composition and motion.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "Films, shot composition, reference frames & title design",
+      "name": "ShotDeck",
+      "url": "https://shotdeck.com/",
+      "type": "Film still database",
+      "what_you_get": "Searchable HD movie frames with tags for lighting, composition, lenses and mood.",
+      "when_to_visit": "When designing a film lookbook or lighting reference deck.",
+      "access": "Free signup / paid access",
+      "link_review": "verified"
+    },
+    {
+      "category": "Films, shot composition, reference frames & title design",
+      "name": "Flim",
+      "url": "https://flim.ai/",
+      "type": "AI-assisted film reference search",
+      "what_you_get": "Film, animation, advertisement and music-video references with visual search and boards.",
+      "when_to_visit": "When describing a mood in natural language and looking for matching cinematography.",
+      "access": "Free and paid",
+      "link_review": "verified"
+    },
+    {
+      "category": "Films, shot composition, reference frames & title design",
+      "name": "Frame Set",
+      "url": "https://frameset.app/search",
+      "type": "Frames + motion references",
+      "what_you_get": "Searchable frames and moving clips from films, commercials and music videos.",
+      "when_to_visit": "When assembling a director treatment, storyboard or shot-reference collection.",
+      "access": "Free to start",
+      "link_review": "verified"
+    },
+    {
+      "category": "Films, shot composition, reference frames & title design",
+      "name": "FilmGrab",
+      "url": "https://film-grab.com/",
+      "type": "Curated film stills",
+      "what_you_get": "Film screenshots organized by films, directors, artists and visual categories.",
+      "when_to_visit": "When studying a director’s shot compositions and colour choices.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "Films, shot composition, reference frames & title design",
+      "name": "Shot.Cafe",
+      "url": "https://shot.cafe/movie/",
+      "type": "Film still database",
+      "what_you_get": "Searchable cinematic screencaps with visual tags and colour tools.",
+      "when_to_visit": "When building a focused palette or lighting moodboard.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "Films, shot composition, reference frames & title design",
+      "name": "Movie Screencaps",
+      "url": "https://movie-screencaps.com/",
+      "type": "Movie screencap archive",
+      "what_you_get": "Large movie screenshot collections from individual films.",
+      "when_to_visit": "When you need continuity or scene-level reference frames rather than one iconic still.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "Films, shot composition, reference frames & title design",
+      "name": "Art of the Title",
+      "url": "https://www.artofthetitle.com/",
+      "type": "Editorial case studies",
+      "what_you_get": "Title sequences and breakdowns spanning films, television and games.",
+      "when_to_visit": "When directing opening credits, motion typography or narrative introductions.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "Films, shot composition, reference frames & title design",
+      "name": "Film Vibes",
+      "url": "https://filmvibes.io/",
+      "type": "Video reference search",
+      "what_you_get": "Searchable film, commercial and music-video shots aimed at treatments and animatics.",
+      "when_to_visit": "When finding moving reference clips for a pitch or edit.",
+      "access": "Reference / educational use",
+      "link_review": "verified"
+    },
+    {
+      "category": "Films, shot composition, reference frames & title design",
+      "name": "Cap-that",
+      "url": "https://www.cap-that.com/",
+      "type": "Film & TV screencaps",
+      "what_you_get": "Film, television and miniseries frame galleries, sometimes with higher-resolution caps.",
+      "when_to_visit": "When a specific film sequence needs frame-by-frame visual inspection.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "Anime, manga, acting & character animation",
+      "name": "Sakuga Video",
+      "url": "https://sakuga.video/",
+      "type": "Animation video showcase",
+      "what_you_get": "A stream of notable animation clips with diverse action and acting examples.",
+      "when_to_visit": "When studying impactful motion, action cuts or expressive anime animation.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "Anime, manga, acting & character animation",
+      "name": "Sakugabooru",
+      "url": "https://www.sakugabooru.com/",
+      "type": "Tagged animation clip archive",
+      "what_you_get": "Searchable clips and images focused on notable animation sequences and artists.",
+      "when_to_visit": "When studying motion timing, animator-specific cuts or anime effects.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "Anime, manga, acting & character animation",
+      "name": "Sakuga Blog",
+      "url": "https://blog.sakugabooru.com/",
+      "type": "Animation criticism & breakdowns",
+      "what_you_get": "Technical and artistic articles about animation, shows and industry craft.",
+      "when_to_visit": "When you need analysis explaining why a sequence works rather than only the clip.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "Anime, manga, acting & character animation",
+      "name": "FrameThrower — Animation Reference",
+      "url": "https://framethrower.ai/animation-reference",
+      "type": "Searchable shot references",
+      "what_you_get": "Natural-language search across animation scenes for staging, motion and acting.",
+      "when_to_visit": "When an animator or storyboarder needs a very specific action or pose.",
+      "access": "Access may vary",
+      "link_review": "verified"
+    },
+    {
+      "category": "Anime, manga, acting & character animation",
+      "name": "11 Second Club",
+      "url": "https://11secondclub.com/",
+      "type": "Character animation examples",
+      "what_you_get": "Performance clips, monthly acting challenges and critique resources.",
+      "when_to_visit": "When developing believable acting, lip sync, dialogue and subtle facial emotion.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "Games, game art, assets & interfaces",
+      "name": "Game Art Style Atlas",
+      "url": "https://gameartstyle.loopyhop.com/",
+      "type": "Game visual style atlas",
+      "what_you_get": "Real-game examples organized by pixel, painting, material and rendering styles.",
+      "when_to_visit": "When choosing a game’s visual direction from actual shipped games.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "Games, game art, assets & interfaces",
+      "name": "Genie Labs — Game Art Prompt Library",
+      "url": "https://genielabs.tech/learn/prompts",
+      "type": "Production prompts",
+      "what_you_get": "Prompts for character poses, turnarounds, asset packs, UI imagery and LiveOps art.",
+      "when_to_visit": "When you need consistent game assets across a production workflow.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "Games, game art, assets & interfaces",
+      "name": "SEELE — Game Asset Prompt Library",
+      "url": "https://www.seeles.ai/resources/blogs/game-asset-prompt-library",
+      "type": "Prompt examples & guide",
+      "what_you_get": "Structured prompts for characters, maps, props, UI, environments and key art.",
+      "when_to_visit": "When briefing a game artist or image model for a particular asset.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "Games, game art, assets & interfaces",
+      "name": "Game UI Database",
+      "url": "https://www.gameuidatabase.com/",
+      "type": "Video game UI reference",
+      "what_you_get": "A searchable catalogue of game UI screens and interface patterns.",
+      "when_to_visit": "When designing HUDs, menus, inventory, dialogue or navigational interfaces.",
+      "access": "Site blocks automated crawling",
+      "link_review": "known domain; crawler restricted"
+    },
+    {
+      "category": "Games, game art, assets & interfaces",
+      "name": "Interface In Game",
+      "url": "https://interfaceingame.com/",
+      "type": "Game UI screenshots + clips",
+      "what_you_get": "Organized screenshots and videos of real game interfaces.",
+      "when_to_visit": "When researching how existing games handle a specific UI pattern.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "Games, game art, assets & interfaces",
+      "name": "ArtStation — Game Art",
+      "url": "https://www.artstation.com/channels/game_art?include_ai=false",
+      "type": "Professional portfolio references",
+      "what_you_get": "Game concept art, creatures, environments, character designs and production illustrations.",
+      "when_to_visit": "When establishing professional-quality game art direction.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "Games, game art, assets & interfaces",
+      "name": "Lospec Palette List",
+      "url": "https://lospec.com/palette-list",
+      "type": "Pixel-art palettes",
+      "what_you_get": "Downloadable colour palettes, including hardware palettes and community sets.",
+      "when_to_visit": "When producing pixel art, retro sprites or limited-palette game assets.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "Games, game art, assets & interfaces",
+      "name": "SEELE — Game & Animation Skills",
+      "url": "https://www.seeles.ai/workspace",
+      "type": "Generative workflows",
+      "what_you_get": "Example skill categories for game generation, 2D assets, 3D worlds and animation.",
+      "when_to_visit": "When testing a workflow that goes beyond a single isolated art prompt.",
+      "access": "Account may be required",
+      "link_review": "verified"
+    },
+    {
+      "category": "Games, game art, assets & interfaces",
+      "name": "Mirth — AI Game Prompt Library",
+      "url": "https://www.mirth.cool/prompts",
+      "type": "Playable-game prompts",
+      "what_you_get": "Small set of reusable game concept prompts spanning arcade, simulation and adventure.",
+      "when_to_visit": "When brainstorming playable game prototypes rather than only visuals.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    }
+  ]
+}
