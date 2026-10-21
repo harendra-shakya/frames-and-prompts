@@ -1,6 +1,6 @@
 {
   "title": "Frames & Prompts",
-  "last_reviewed": "2026-10-21",
+  "last_reviewed": "2026-10-22",
   "resources": [
     {
       "category": "Visual style atlases & image prompt libraries",
@@ -540,6 +540,56 @@
       "what_you_get": "Small set of reusable game concept prompts spanning arcade, simulation and adventure.",
       "when_to_visit": "When brainstorming playable game prototypes rather than only visuals.",
       "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "Creative coding, generative art & drawing tools",
+      "name": "p5.brush",
+      "url": "https://github.com/acamposuribe/p5.brush",
+      "type": "Natural-media drawing library",
+      "what_you_get": "Pencils, charcoal, markers, watercolor-style fills, hatching and organic vector-field strokes for p5.js, plus interactive brush and flow-field makers. 1,129 GitHub stars on 22 October 2026.",
+      "when_to_visit": "When you want textured, hand-made marks in generative art; try the [Brush Maker](https://acamposuribe.github.io/p5.brush/tools/brush-maker.html) or [Flow Field Generator](https://acamposuribe.github.io/p5.brush/tools/flowfield-maker.html).",
+      "access": "Free; the p5.js build requires p5.js 2.x and a WEBGL canvas; standalone build requires WebGL2.",
+      "link_review": "verified"
+    },
+    {
+      "category": "Creative coding, generative art & drawing tools",
+      "name": "Rough.js",
+      "url": "https://github.com/rough-stuff/rough",
+      "type": "Hand-drawn Canvas/SVG library",
+      "what_you_get": "Canvas and SVG primitives, including paths, rendered with a sketchy, hand-drawn appearance. 21,295 GitHub stars on 22 October 2026.",
+      "when_to_visit": "When diagrams, shapes or UI need an intentionally sketched line quality instead of clean vector edges.",
+      "access": "Free and open source",
+      "link_review": "verified"
+    },
+    {
+      "category": "Creative coding, generative art & drawing tools",
+      "name": "Paper.js",
+      "url": "https://github.com/paperjs/paper.js",
+      "type": "Vector graphics scripting library",
+      "what_you_get": "Browser vector drawing and path manipulation through a scripting API for canvas-based visual work. 15,095 GitHub stars on 22 October 2026.",
+      "when_to_visit": "When you need to build or manipulate paths and vector geometry programmatically.",
+      "access": "Free to use",
+      "link_review": "verified"
+    },
+    {
+      "category": "Creative coding, generative art & drawing tools",
+      "name": "p5.js",
+      "url": "https://github.com/processing/p5.js",
+      "type": "Creative-coding library",
+      "what_you_get": "An open-source JavaScript platform for browser-based creative coding, interactive sketches and generative drawing. 24,155 GitHub stars on 22 October 2026.",
+      "when_to_visit": "When starting an approachable code-driven drawing, animation or interactive visual from a blank canvas.",
+      "access": "Free and open source",
+      "link_review": "verified"
+    },
+    {
+      "category": "Creative coding, generative art & drawing tools",
+      "name": "Hydra",
+      "url": "https://github.com/hydra-synth/hydra",
+      "type": "Live-coding visual system",
+      "what_you_get": "Browser live coding for real-time visuals, with compositing and color/coordinate transforms across video sources and outputs. 2,732 GitHub stars on 22 October 2026.",
+      "when_to_visit": "When you want to perform or prototype real-time visuals by chaining live-coded transformations.",
+      "access": "Free and open source; requires a WebGL-capable Chromium browser per the repository README.",
       "link_review": "verified"
     }
   ]
