@@ -4,6 +4,21 @@
 
 **The point:** find the right *kind* of reference for your next creative decision — and know what each site actually provides before opening it.
 
+
+## For agents: make the work, not just the prompt
+
+The links below are research material. To turn them into an image, animated film, storyboard, motion comic, or game, start with [AGENTS.md](AGENTS.md), which routes each task to a production playbook and requires inspection of the actual result.
+
+| Making | Production instructions |
+|---|---|
+| Image, illustration, character or environment | [Image direction](skills/image/SKILL.md) |
+| Animation, film, motion graphics, comic-to-video | [Animation and film direction](skills/animation/SKILL.md) |
+| Comic pages, panels, shot lists and animatics | [Storyboarding](skills/storyboards/SKILL.md) |
+| Game art, sprites, HUDs, playable visual systems | [Game art](skills/game-art/SKILL.md) |
+| **Any creative deliverable — mandatory final review** | [Anti-slop quality gate](skills/anti-slop/SKILL.md) |
+
+Use the [creative brief template](templates/creative-brief.md) for projects with multiple shots or assets. The process is **reference → art direction → prototype → actual render/playtest → critique → targeted revision**. No pass without looking at the output.
+
 ## Start here: what are you trying to do?
 
 | Your task | Start with |
