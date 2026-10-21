@@ -163,6 +163,46 @@
       "link_review": "verified"
     },
     {
+      "category": "Animation, motion graphics & editable templates",
+      "name": "P(doom) Video — mexicat",
+      "url": "https://github.com/mexicat/pdoom-video",
+      "type": "Open-source music-video production example",
+      "what_you_get": "A lyric-synced, code-rendered music video with a documented treatment, scene engine and deterministic browser preview and local export.",
+      "when_to_visit": "When inspecting how to structure lyrics, timing, scenes and a reproducible renderer for a music video.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "Animation, motion graphics & editable templates",
+      "name": "PDoomVideo — John Heibel",
+      "url": "https://github.com/JohnHeibel/PDoomVideo",
+      "type": "Open-source animation case study",
+      "what_you_get": "A Claude-generated multi-scene music video source project, with its storyboard, animation guide and notes on the generation process.",
+      "when_to_visit": "When studying agent-directed storyboarding and scene-by-scene code animation.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "Animation, motion graphics & editable templates",
+      "name": "15 Motion Design Styles",
+      "url": "https://github.com/Vincentwei1021/mg-styles-15",
+      "type": "Motion-design films + prompts + source",
+      "what_you_get": "Fifteen 10-second code-made motion-design films with style notes, full prompts, source code, music and sound effects.",
+      "when_to_visit": "When comparing distinct motion-design treatments and learning how their visuals and sound were built.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "Animation, motion graphics & editable templates",
+      "name": "Claude Animation Base",
+      "url": "https://github.com/JohnHeibel/ClaudeAnimationBase",
+      "type": "Character-animation starter kit",
+      "what_you_get": "A p5.js and p5.brush project with character assets and an animation guide for storyboarding, building scenes and rendering hand-drawn character films.",
+      "when_to_visit": "When prototyping brush-based character animation with a coding agent.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
       "category": "AI video prompts, scenes & storytelling workflows",
       "name": "Awesome Video Prompts",
       "url": "https://awesomevideoprompts.com/en",
@@ -259,6 +299,46 @@
       "type": "Educational guide",
       "what_you_get": "Clear side-by-side guidance for text-to-video versus image-to-video prompts.",
       "when_to_visit": "When deciding what information belongs in the source image versus the motion prompt.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "AI video prompts, scenes & storytelling workflows",
+      "name": "Awesome Opus 5.5 Videos",
+      "url": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+      "type": "Code-animation video gallery",
+      "what_you_get": "A growing collection of code-made videos with creator prompts or original posts, downloadable prompt files, and browser remakes for many examples.",
+      "when_to_visit": "When studying how a code-generated animation was made or adapting a creator’s prompt for your own agent.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "AI video prompts, scenes & storytelling workflows",
+      "name": "Lemo-Opuscar",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar",
+      "type": "Claude Code skill + style gallery",
+      "what_you_get": "A coding-agent workflow with 51 code-made short films, each demonstrating a different film style that can be adapted to a new story.",
+      "when_to_visit": "When choosing a visual direction and turning it into a short code-rendered film.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "AI video prompts, scenes & storytelling workflows",
+      "name": "Awesome Claude 5.5 Videos",
+      "url": "https://github.com/athemeroy/awesome-claude-5-5-videos",
+      "type": "Source-linked video research archive",
+      "what_you_get": "A categorized archive of Claude 5.5 videos and reusable projects with original sources, sampled previews, data and research notes; some model attributions are explicitly creator-reported.",
+      "when_to_visit": "When you need traceable examples or want to compare video workflows across Claude models.",
+      "access": "Free to explore",
+      "link_review": "verified"
+    },
+    {
+      "category": "AI video prompts, scenes & storytelling workflows",
+      "name": "Opus 5.5 Video Prompts",
+      "url": "https://github.com/joeseesun/opus-video-prompts",
+      "type": "Copy-ready video prompt collection",
+      "what_you_get": "A Chinese-language collection of code-generated video prompts and public examples spanning Canvas, p5.js, Three.js, Remotion, Manim and Blender workflows.",
+      "when_to_visit": "When you want copyable prompts and a concise map of code-based video production approaches.",
       "access": "Free to explore",
       "link_review": "verified"
     },
@@ -590,86 +670,6 @@
       "what_you_get": "Browser live coding for real-time visuals, with compositing and color/coordinate transforms across video sources and outputs. 2,732 GitHub stars on 22 October 2026.",
       "when_to_visit": "When you want to perform or prototype real-time visuals by chaining live-coded transformations.",
       "access": "Free and open source; requires a WebGL-capable Chromium browser per the repository README.",
-      "link_review": "verified"
-    },
-    {
-      "category": "AI video prompts, scenes & storytelling workflows",
-      "name": "Awesome Opus 5.5 Videos",
-      "url": "https://github.com/yihui-dev/awesome-opus5-5-videos",
-      "type": "Code-animation video gallery",
-      "what_you_get": "A growing collection of code-made videos with creator prompts or original posts, downloadable prompt files, and browser remakes for many examples.",
-      "when_to_visit": "When studying how a code-generated animation was made or adapting a creator’s prompt for your own agent.",
-      "access": "Free to explore",
-      "link_review": "verified"
-    },
-    {
-      "category": "AI video prompts, scenes & storytelling workflows",
-      "name": "Lemo-Opuscar",
-      "url": "https://github.com/lemomo-ai/lemo-opuscar",
-      "type": "Claude Code skill + style gallery",
-      "what_you_get": "A coding-agent workflow with 51 code-made short films, each demonstrating a different film style that can be adapted to a new story.",
-      "when_to_visit": "When choosing a visual direction and turning it into a short code-rendered film.",
-      "access": "Free to explore",
-      "link_review": "verified"
-    },
-    {
-      "category": "AI video prompts, scenes & storytelling workflows",
-      "name": "Awesome Claude 5.5 Videos",
-      "url": "https://github.com/athemeroy/awesome-claude-5-5-videos",
-      "type": "Source-linked video research archive",
-      "what_you_get": "A categorized archive of Claude 5.5 videos and reusable projects with original sources, sampled previews, data and research notes; some model attributions are explicitly creator-reported.",
-      "when_to_visit": "When you need traceable examples or want to compare video workflows across Claude models.",
-      "access": "Free to explore",
-      "link_review": "verified"
-    },
-    {
-      "category": "AI video prompts, scenes & storytelling workflows",
-      "name": "Opus 5.5 Video Prompts",
-      "url": "https://github.com/joeseesun/opus-video-prompts",
-      "type": "Copy-ready video prompt collection",
-      "what_you_get": "A Chinese-language collection of code-generated video prompts and public examples spanning Canvas, p5.js, Three.js, Remotion, Manim and Blender workflows.",
-      "when_to_visit": "When you want copyable prompts and a concise map of code-based video production approaches.",
-      "access": "Free to explore",
-      "link_review": "verified"
-    },
-    {
-      "category": "Animation, motion graphics & editable templates",
-      "name": "P(doom) Video — mexicat",
-      "url": "https://github.com/mexicat/pdoom-video",
-      "type": "Open-source music-video production example",
-      "what_you_get": "A lyric-synced, code-rendered music video with a documented treatment, scene engine and deterministic browser preview and local export.",
-      "when_to_visit": "When inspecting how to structure lyrics, timing, scenes and a reproducible renderer for a music video.",
-      "access": "Free to explore",
-      "link_review": "verified"
-    },
-    {
-      "category": "Animation, motion graphics & editable templates",
-      "name": "PDoomVideo — John Heibel",
-      "url": "https://github.com/JohnHeibel/PDoomVideo",
-      "type": "Open-source animation case study",
-      "what_you_get": "A Claude-generated multi-scene music video source project, with its storyboard, animation guide and notes on the generation process.",
-      "when_to_visit": "When studying agent-directed storyboarding and scene-by-scene code animation.",
-      "access": "Free to explore",
-      "link_review": "verified"
-    },
-    {
-      "category": "Animation, motion graphics & editable templates",
-      "name": "15 Motion Design Styles",
-      "url": "https://github.com/Vincentwei1021/mg-styles-15",
-      "type": "Motion-design films + prompts + source",
-      "what_you_get": "Fifteen 10-second code-made motion-design films with style notes, full prompts, source code, music and sound effects.",
-      "when_to_visit": "When comparing distinct motion-design treatments and learning how their visuals and sound were built.",
-      "access": "Free to explore",
-      "link_review": "verified"
-    },
-    {
-      "category": "Animation, motion graphics & editable templates",
-      "name": "Claude Animation Base",
-      "url": "https://github.com/JohnHeibel/ClaudeAnimationBase",
-      "type": "Character-animation starter kit",
-      "what_you_get": "A p5.js and p5.brush project with character assets and an animation guide for storyboarding, building scenes and rendering hand-drawn character films.",
-      "when_to_visit": "When prototyping brush-based character animation with a coding agent.",
-      "access": "Free to explore",
       "link_review": "verified"
     }
   ]
