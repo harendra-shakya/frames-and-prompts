@@ -1,6 +1,6 @@
 # Frames & Prompts
 
-> A curated directory of **59** visual references, creative tools, prompt libraries and templates for AI film, animation, motion graphics, anime, games and visual design.
+> A curated directory of **67** visual references, creative tools, prompt libraries and templates for AI film, animation, motion graphics, anime, games and visual design.
 
 **The point:** find the right *kind* of reference for your next creative decision — and know what each site actually provides before opening it.
 
@@ -24,11 +24,12 @@ Use the [creative brief template](templates/creative-brief.md) for projects with
 | Your task | Start with |
 |---|---|
 | Find an overall art / anime / comic look | [Futurepedia AI Style Atlas](https://www.futurepedia.io/resources/ai-style-atlas/view), [Midlibrary](https://midlibrary.io/) |
-| Generate a short animated film from a prompt | [Awesome Video Prompts](https://awesomevideoprompts.com/en), [SJinn](https://sjinn.ai/seedance-prompts) |
+| Generate a short animated film from a prompt | [Awesome Video Prompts](https://awesomevideoprompts.com/en), [SJinn](https://sjinn.ai/seedance-prompts), [Awesome Opus 5.5 Videos](https://github.com/yihui-dev/awesome-opus5-5-videos), [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) |
+| Make code-rendered motion graphics or character animation | [15 Motion Design Styles](https://github.com/Vincentwei1021/mg-styles-15), [Claude Animation Base](https://github.com/JohnHeibel/ClaudeAnimationBase), [P(doom) Video](https://github.com/mexicat/pdoom-video) |
 | Animate an existing comic page or storyboard | [Runway Gen-4 Video Guide](https://help.runwayml.com/hc/en-us/articles/39789879462419-Gen-4-Video-Prompting-Guide), [Sakuga Video](https://sakuga.video/) |
 | Choose a camera move | [AI Camera Movements](https://godofskills.com/guides/ai-camera-movements), [Runway Camera Examples](https://help.runwayml.com/hc/en-us/articles/47313504791059-Camera-Terms-Prompts-Examples) |
 | Match a cinematic film look | [ShotDeck](https://shotdeck.com/), [Flim](https://flim.ai/) |
-| Build motion graphics / title sequences | [Prompt Motion](https://promptmotion.org/), [Jitter](https://jitter.video/templates/), [Art of the Title](https://www.artofthetitle.com/) |
+| Build motion graphics / title sequences | [Prompt Motion](https://promptmotion.org/), [Jitter](https://jitter.video/templates/), [Art of the Title](https://www.artofthetitle.com/), [15 Motion Design Styles](https://github.com/Vincentwei1021/mg-styles-15) |
 | Research game art or UI | [Game Art Style Atlas](https://gameartstyle.loopyhop.com/), [Interface In Game](https://interfaceingame.com/) |
 | Make reusable game characters / assets | [Genie Labs](https://genielabs.tech/learn/prompts), [SEELE](https://www.seeles.ai/resources/blogs/game-asset-prompt-library) |
 | Create code-driven, textured drawing or live visuals | [p5.brush](https://github.com/acamposuribe/p5.brush), [Rough.js](https://github.com/rough-stuff/rough), [Paper.js](https://github.com/paperjs/paper.js), [p5.js](https://github.com/processing/p5.js), [Hydra](https://github.com/hydra-synth/hydra) |
@@ -36,8 +37,8 @@ Use the [creative brief template](templates/creative-brief.md) for projects with
 ## Browse by category
 
 - [Visual style atlases & image prompt libraries](#visual-style-atlases--image-prompt-libraries) — 9 resources
-- [Animation, motion graphics & editable templates](#animation-motion-graphics--editable-templates) — 7 resources
-- [AI video prompts, scenes & storytelling workflows](#ai-video-prompts-scenes--storytelling-workflows) — 10 resources
+- [Animation, motion graphics & editable templates](#animation-motion-graphics--editable-templates) — 11 resources
+- [AI video prompts, scenes & storytelling workflows](#ai-video-prompts-scenes--storytelling-workflows) — 14 resources
 - [Camera movement, shot language & cinematography](#camera-movement-shot-language--cinematography) — 5 resources
 - [Films, shot composition, reference frames & title design](#films-shot-composition-reference-frames--title-design) — 9 resources
 - [Anime, manga, acting & character animation](#anime-manga-acting--character-animation) — 5 resources
@@ -79,6 +80,11 @@ Use the [creative brief template](templates/creative-brief.md) for projects with
 | **[Rive Marketplace](https://rive.app/marketplace/)**<br><sub>Interactive animation assets</sub> | Inspectable/remixable interactive animation assets, including character and UI motion. | When an interface needs reactive character or state-based animation rather than a flat clip. |
 | **[Eyecandy](https://eyecannndy.com/)**<br><sub>Moving-image technique references</sub> | Real examples of transitions, editing tricks, visual techniques and filmmaking effects. | When you can picture an effect but do not know the name or how to describe it. |
 
+| **[P(doom) Video — mexicat](https://github.com/mexicat/pdoom-video)**<br><sub>Open-source music-video production example</sub> | A lyric-synced, code-rendered music video with a documented treatment, scene engine and deterministic browser preview and local export. | When inspecting how to structure lyrics, timing, scenes and a reproducible renderer for a music video. |
+| **[PDoomVideo — John Heibel](https://github.com/JohnHeibel/PDoomVideo)**<br><sub>Open-source animation case study</sub> | A Claude-generated multi-scene music video source project, with its storyboard, animation guide and notes on the generation process. | When studying agent-directed storyboarding and scene-by-scene code animation. |
+| **[15 Motion Design Styles](https://github.com/Vincentwei1021/mg-styles-15)**<br><sub>Motion-design films + prompts + source</sub> | Fifteen 10-second code-made motion-design films with style notes, full prompts, source code, music and sound effects. | When comparing distinct motion-design treatments and learning how their visuals and sound were built. |
+| **[Claude Animation Base](https://github.com/JohnHeibel/ClaudeAnimationBase)**<br><sub>Character-animation starter kit</sub> | A p5.js and p5.brush project with character assets and an animation guide for storyboarding, building scenes and rendering hand-drawn character films. | When prototyping brush-based character animation with a coding agent. |
+
 ## AI video prompts, scenes & storytelling workflows
 
 | Site | What you get | When to visit |
@@ -93,6 +99,11 @@ Use the [creative brief template](templates/creative-brief.md) for projects with
 | **[Runway — Text-to-Video Prompting Guide](https://help.runwayml.com/hc/en-us/articles/42460036199443-Text-to-Video-Prompting-Guide)**<br><sub>Official prompts + outputs</sub> | Prompt-and-result examples covering scene, subject motion, camera and time. | When text-to-video ignores motion direction or gives a generic shot. |
 | **[Runway — Gen-4 Video Prompting Guide](https://help.runwayml.com/hc/en-us/articles/39789879462419-Gen-4-Video-Prompting-Guide)**<br><sub>Official prompts + outputs</sub> | Image-to-video examples and practices for subject, scene, style and camera movement. | When animating an existing storyboard frame, photo or comic panel. |
 | **[Runway Academy — Prompting Guide](https://academy.runwayml.com/guides/prompting-guide)**<br><sub>Educational guide</sub> | Clear side-by-side guidance for text-to-video versus image-to-video prompts. | When deciding what information belongs in the source image versus the motion prompt. |
+
+| **[Awesome Opus 5.5 Videos](https://github.com/yihui-dev/awesome-opus5-5-videos)**<br><sub>Code-animation video gallery</sub> | A growing collection of code-made videos with creator prompts or original posts, downloadable prompt files, and browser remakes for many examples. | When studying how a code-generated animation was made or adapting a creator’s prompt for your own agent. |
+| **[Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar)**<br><sub>Claude Code skill + style gallery</sub> | A coding-agent workflow with 51 code-made short films, each demonstrating a different film style that can be adapted to a new story. | When choosing a visual direction and turning it into a short code-rendered film. |
+| **[Awesome Claude 5.5 Videos](https://github.com/athemeroy/awesome-claude-5-5-videos)**<br><sub>Source-linked video research archive</sub> | A categorized archive of Claude 5.5 videos and reusable projects with original sources, sampled previews, data and research notes; some model attributions are explicitly creator-reported. | When you need traceable examples or want to compare video workflows across Claude models. |
+| **[Opus 5.5 Video Prompts](https://github.com/joeseesun/opus-video-prompts)**<br><sub>Copy-ready video prompt collection</sub> | A Chinese-language collection of code-generated video prompts and public examples spanning Canvas, p5.js, Three.js, Remotion, Manim and Blender workflows. | When you want copyable prompts and a concise map of code-based video production approaches. |
 
 ## Camera movement, shot language & cinematography
 
