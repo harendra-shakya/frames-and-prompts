@@ -1,6 +1,6 @@
 # Frames & Prompts
 
-> A curated directory of **54** galleries, prompt libraries, references and templates for AI film, animation, motion graphics, anime, games and visual design.
+> A curated directory of **59** visual references, creative tools, prompt libraries and templates for AI film, animation, motion graphics, anime, games and visual design.
 
 **The point:** find the right *kind* of reference for your next creative decision — and know what each site actually provides before opening it.
 
@@ -31,6 +31,7 @@ Use the [creative brief template](templates/creative-brief.md) for projects with
 | Build motion graphics / title sequences | [Prompt Motion](https://promptmotion.org/), [Jitter](https://jitter.video/templates/), [Art of the Title](https://www.artofthetitle.com/) |
 | Research game art or UI | [Game Art Style Atlas](https://gameartstyle.loopyhop.com/), [Interface In Game](https://interfaceingame.com/) |
 | Make reusable game characters / assets | [Genie Labs](https://genielabs.tech/learn/prompts), [SEELE](https://www.seeles.ai/resources/blogs/game-asset-prompt-library) |
+| Create code-driven, textured drawing or live visuals | [p5.brush](https://github.com/acamposuribe/p5.brush), [Rough.js](https://github.com/rough-stuff/rough), [Paper.js](https://github.com/paperjs/paper.js), [p5.js](https://github.com/processing/p5.js), [Hydra](https://github.com/hydra-synth/hydra) |
 
 ## Browse by category
 
@@ -41,6 +42,7 @@ Use the [creative brief template](templates/creative-brief.md) for projects with
 - [Films, shot composition, reference frames & title design](#films-shot-composition-reference-frames--title-design) — 9 resources
 - [Anime, manga, acting & character animation](#anime-manga-acting--character-animation) — 5 resources
 - [Games, game art, assets & interfaces](#games-game-art-assets--interfaces) — 9 resources
+- [Creative coding, generative art & drawing tools](#creative-coding-generative-art--drawing-tools) — 5 resources
 
 ### How to read this list
 
@@ -48,6 +50,7 @@ Use the [creative brief template](templates/creative-brief.md) for projects with
 - **Reference library**: real-world clips, artwork or screenshots to study. **Usually not an AI prompt library.**
 - **Template**: an editable asset or project, not just a prompt.
 - **Guide**: useful examples and methods; not necessarily a browseable search gallery.
+- **Creative tool**: a program or library for making visual work with code.
 - **Access** and pricing can change. Some databases need sign-in; never assume that reference media is licensed for reuse.
 
 ## Visual style atlases & image prompt libraries
@@ -139,6 +142,18 @@ Use the [creative brief template](templates/creative-brief.md) for projects with
 | **[SEELE — Game & Animation Skills](https://www.seeles.ai/workspace)**<br><sub>Generative workflows</sub> | Example skill categories for game generation, 2D assets, 3D worlds and animation. | When testing a workflow that goes beyond a single isolated art prompt. |
 | **[Mirth — AI Game Prompt Library](https://www.mirth.cool/prompts)**<br><sub>Playable-game prompts</sub> | Small set of reusable game concept prompts spanning arcade, simulation and adventure. | When brainstorming playable game prototypes rather than only visuals. |
 
+## Creative coding, generative art & drawing tools
+
+Useful for code-driven drawing, textured strokes, vector geometry and live visuals. GitHub star counts are a snapshot from 22 October 2026 and serve only as a rough popularity signal.
+
+| Tool | What you get | When to visit |
+|---|---|---|
+| **[p5.brush](https://github.com/acamposuribe/p5.brush)**<br><sub>Natural-media drawing library · 1,129★</sub> | Pencils, charcoal, markers, watercolor-style fills, hatching and organic vector-field strokes for p5.js, plus interactive brush and flow-field makers. | When you want textured, hand-made marks in generative art; try the [Brush Maker](https://acamposuribe.github.io/p5.brush/tools/brush-maker.html) or [Flow Field Generator](https://acamposuribe.github.io/p5.brush/tools/flowfield-maker.html). The p5.js build requires p5.js 2.x and WEBGL. |
+| **[Rough.js](https://github.com/rough-stuff/rough)**<br><sub>Hand-drawn Canvas/SVG library · 21,295★</sub> | Canvas and SVG primitives, including paths, rendered with a sketchy, hand-drawn appearance. | When diagrams, shapes or UI need an intentionally sketched line quality instead of clean vector edges. |
+| **[Paper.js](https://github.com/paperjs/paper.js)**<br><sub>Vector graphics scripting library · 15,095★</sub> | Browser vector drawing and path manipulation through a scripting API for canvas-based visual work. | When you need to build or manipulate paths and vector geometry programmatically. |
+| **[p5.js](https://github.com/processing/p5.js)**<br><sub>Creative-coding library · 24,155★</sub> | An open-source JavaScript platform for browser-based creative coding, interactive sketches and generative drawing. | When starting an approachable code-driven drawing, animation or interactive visual from a blank canvas. |
+| **[Hydra](https://github.com/hydra-synth/hydra)**<br><sub>Live-coding visual system · 2,732★</sub> | Browser live coding for real-time visuals, with compositing and color/coordinate transforms across video sources and outputs. | When you want to perform or prototype real-time visuals by chaining live-coded transformations. |
+
 ## A simple creative workflow
 
 1. **Select the look.** Start in a style atlas. Describe palette, line quality, texture, rendering and tone.
@@ -149,19 +164,20 @@ Use the [creative brief template](templates/creative-brief.md) for projects with
 
 ## Notes on coverage and link reliability
 
-- Reviewed **21 October 2026**. Links were researched against public web search results or site pages where accessible; this is **not** an automated live-HTTP audit of every URL.
+- Reviewed **22 October 2026**. Links were researched against public web search results or site pages where accessible; this is **not** an automated live-HTTP audit of every URL.
 - The original Futurepedia link was provided directly as the starting reference, but its content could not be fetched by the crawler during this review.
 - Game UI Database was inaccessible to automated crawlers; its public URL is included as a known resource.
+- Creative-coding tools were checked against their upstream GitHub READMEs; star counts are a 22 October 2026 snapshot.
 - Some entries share a platform but link to **different sections** (e.g. Prompt Motion, Jitter, Runway).
 - Entries from an earlier exploratory list that could not be substantiated with a reliable source were replaced with working, relevant alternatives rather than repeated uncritically.
 - Links are to other people’s websites. Respect each site’s terms, copyright and licences. Inspiration/reference access is **not** permission to repost copyrighted images or train models.
 
 ## Contributing
 
-Propose additions by opening an issue or pull request. For each new resource include: official URL, category, **what you actually get**, **when to visit**, and whether it is a prompt gallery, a reference database, a template or a guide. Prefer the canonical site to affiliate/mirror links. Avoid duplicate directories and unclear ownership.
+Propose additions by opening an issue or pull request. For each new resource include: official URL, category, **what you actually get**, **when to visit**, and whether it is a prompt gallery, a reference database, a template, a guide or a creative tool. Prefer the canonical site to affiliate/mirror links. Avoid duplicate directories and unclear ownership.
 
 The same catalogue is available in [`resources.json`](resources.json) for search, filtering and building a visual gallery.
 
 ---
 
-**Frames & Prompts** — curated for high-signal examples, practical production use, and clear distinctions between copyable prompts and visual inspiration.
+**Frames & Prompts** — curated for high-signal examples, practical production use, and clear distinctions between copyable prompts, visual references and creative tools.
