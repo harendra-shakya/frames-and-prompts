@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Frames & Prompts — MCP</title>
+<style>html{background:#0d0e11;color:#f1ede7;font-family:ui-sans-serif,system-ui,sans-serif}body{max-width:740px;margin:8vh auto;padding:24px;line-height:1.6}a{color:#c4d6ff}h1{font-size:clamp(32px,6vw,52px);letter-spacing:-.04em;line-height:1.1}p{color:#c5c4c2}.eyebrow{font-weight:700;letter-spacing:.16em;color:#b4a0ff;font-size:12px}.panel{background:#17191e;border:1px solid #35363d;padding:22px;border-radius:16px;margin:26px 0}code{background:#292a30;padding:4px 7px;border-radius:5px;overflow-wrap:anywhere}li{margin:8px 0}small{color:#999}</style></head>
+<body><div class="eyebrow">FRAMES & PROMPTS / REMOTE MCP</div><h1>Creative references, searchable by AI.</h1>
+<p>A read-only Model Context Protocol server for AI filmmaking, animation, storyboarding, visual style research, manga and game art.</p>
+<section class="panel"><strong>Connect to ChatGPT</strong><p>In ChatGPT web: Plugins → + → Add custom MCP server. Choose <em>No authentication</em> and enter the endpoint below.</p>
+<code id="endpoint">/mcp</code><p><small>Streaming HTTP · 67 curated sources · 14 original styles · 10 reusable prompt recipes.</small></p></section>
+<ul><li><a href="/api/health">Health and library counts</a></li><li><a href="https://github.com/harendra-shakya/frames-and-prompts">Source repository</a></li><li><a href="https://github.com/harendra-shakya/frames-and-prompts/blob/main/mcp/README.md">Tools and setup guide (after merge)</a></li></ul>
+<p><small>References are links to external libraries, not full mirrored third-party galleries. The source inspector retrieves accessible public text only.</small></p>
+<script>document.getElementById('endpoint').textContent=location.origin+'/mcp';</script></body></html>
