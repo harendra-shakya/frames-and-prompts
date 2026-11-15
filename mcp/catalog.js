@@ -44,7 +44,7 @@ export function searchIndex({ query = "", kind, category, limit = 10 } = {}) {
   const result = records.filter((r) =>
     (!kind || r.kind === kind) &&
     (!category || normalize(r.category).includes(normalize(category))) &&
-    (terms.length === 0 || score(r, terms, phrase) > 0)
+    (terms.length === 0 || (() => { const text = normalize([r.title, r.category, r.description, r.use_for, r.type, r.tags?.join(" "), r.medium].join(" ")); const hits = terms.filter(t => text.includes(t)).length; return terms.every(t => !/\d/.test(t) || text.includes(t)) && hits >= Math.ceil(terms.length * 0.55); })())
   ).map((r) => ({ r, rank: score(r, terms, phrase) }))
     .sort((a, b) => b.rank - a.rank || a.r.title.localeCompare(b.r.title))
     .slice(0, cap);
