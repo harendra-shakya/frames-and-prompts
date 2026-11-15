@@ -1,0 +1,263 @@
+{
+  "version": 1,
+  "description": "Original reusable style grammars and starter prompt recipes. External reference entries live in resources.json.",
+  "styles": [
+    {
+      "id": "cut-paper",
+      "name": "Cut-paper theatre",
+      "medium": "2D animation",
+      "visual_language": "Layered matte paper silhouettes with visibly torn edges, warm parchment shadows, hinged limb motion, limited horizontal stage depth, soft side lighting.",
+      "use_for": "Philosophical dialogue, myth, parables",
+      "prompt_seed": "Keep 3–5 depth planes; move cutouts through rotation, sliding and replacement poses; maintain paper grain and character silhouette.",
+      "avoid": "Perfect digital gradients, photorealistic faces, elastic anatomy"
+    },
+    {
+      "id": "ink-red-silhouette",
+      "name": "Black silhouette / red accent",
+      "medium": "2D minimal animation",
+      "visual_language": "Near-total black figure against bone-white or pitch-black space; decisive negative space; only eyes or a single symbol use red.",
+      "use_for": "Psychological turns, confessions, dread",
+      "prompt_seed": "Use held poses, one intentional camera change, then a timed eye-color reveal; preserve exact head shape.",
+      "avoid": "Neon glow everywhere, over-animated limbs, busy sets"
+    },
+    {
+      "id": "sumi-e",
+      "name": "Sumi-e ink wash",
+      "medium": "Illustration",
+      "visual_language": "Breathing white paper, variable brush pressure, dry-brush edges, transparent wash, minimal grayscale, rare vermilion seal.",
+      "use_for": "Reflective storytelling, landscapes",
+      "prompt_seed": "Compose with 60% negative space and one expressive gesture; let ink density define depth.",
+      "avoid": "Vector-perfect outlines, polished 3D lighting"
+    },
+    {
+      "id": "woodcut",
+      "name": "Woodcut print",
+      "medium": "Illustration",
+      "visual_language": "High-contrast carved contours, rough parallel hatching, limited earthy inks, flattened perspective and bold silhouettes.",
+      "use_for": "Myths, folklore, graphic poster art",
+      "prompt_seed": "Build value with gouged line density and negative space, not airbrush gradients.",
+      "avoid": "Digital bloom, shiny materials"
+    },
+    {
+      "id": "risograph",
+      "name": "Risograph collage",
+      "medium": "Motion design",
+      "visual_language": "Misregistered two-to-three ink colors, halftone texture, cropped found-paper shapes, imperfect photocopy edges.",
+      "use_for": "Editorial explainers, music posters",
+      "prompt_seed": "Animate only independent paper layers; retain the offset registration.",
+      "avoid": "Smooth glossy plastic, arbitrary particles"
+    },
+    {
+      "id": "cel-anime",
+      "name": "Hand-painted cel animation",
+      "medium": "2D animation",
+      "visual_language": "Disciplined outlines, stepped exposure, flat value groups, painted backgrounds, hand-placed highlights, expressive key poses.",
+      "use_for": "Dialogue, anime action, character drama",
+      "prompt_seed": "Lock character model, mouth/eye charts and light direction; stage anticipation, action and reaction.",
+      "avoid": "Temporal morphing, excessive auto-tweening"
+    },
+    {
+      "id": "seinen-ink",
+      "name": "Seinen ink and screentone",
+      "medium": "Manga",
+      "visual_language": "Expressive black brush contours, layered screentones, irregular gutters, strong black masses, restrained speed lines.",
+      "use_for": "Manga drama, internal conflict",
+      "prompt_seed": "Use varying shot sizes and character acting; reserve white space for readable lettering.",
+      "avoid": "Uniform glamour portraits, same-size panels"
+    },
+    {
+      "id": "flat-vector",
+      "name": "Minimal flat-vector",
+      "medium": "2D motion graphics",
+      "visual_language": "Simple geometric forms, crisp silhouettes, few solid colors, deliberate easing, no false material depth.",
+      "use_for": "Short explanations, social animation",
+      "prompt_seed": "Assign one purpose to each color and motion; keep silhouettes recognizable at phone size.",
+      "avoid": "Unnecessary 3D, complex gradients"
+    },
+    {
+      "id": "watercolor",
+      "name": "Watercolor storybook",
+      "medium": "Illustration",
+      "visual_language": "Wet-on-wet pigment blooms, imperfect paper grain, subtle pencil underdrawing, soft luminous washes.",
+      "use_for": "Fables, children's stories, contemplative scenes",
+      "prompt_seed": "Paint environment as atmospheric washes and preserve consistent character landmarks.",
+      "avoid": "Plastic skin, uniform sharpness"
+    },
+    {
+      "id": "noir",
+      "name": "Expressionist film noir",
+      "medium": "Cinema",
+      "visual_language": "Motivated single-source side lighting, controlled black areas, fog only with purpose, asymmetrical framing, hard architecture.",
+      "use_for": "Tension, mystery, moral choices",
+      "prompt_seed": "Design shots by what is withheld or revealed; keep eyelines and light geography consistent.",
+      "avoid": "Unmotivated lens flares, busy neon"
+    },
+    {
+      "id": "pixel16",
+      "name": "16-bit pixel art",
+      "medium": "Game art",
+      "visual_language": "Fixed pixel grid, readable clusters, limited palette, intentional dithering, consistent isometric or side-view projection.",
+      "use_for": "Sprites, retro games, maps",
+      "prompt_seed": "Specify asset dimensions, pivot and animation state; inspect at native zoom.",
+      "avoid": "Blurry upscale, mixed pixel scales"
+    },
+    {
+      "id": "clay",
+      "name": "Handmade clay stop motion",
+      "medium": "Stop motion",
+      "visual_language": "Tactile fingerprints, miniature sets, practical shadows, imperfect edges, stepped pose changes.",
+      "use_for": "Playful ads, character comedy",
+      "prompt_seed": "Preserve physical mass, contact and prop scale in successive frames.",
+      "avoid": "Liquefied characters, texture flicker"
+    },
+    {
+      "id": "travel-editorial",
+      "name": "Naturalistic travel commercial",
+      "medium": "Live-action film",
+      "visual_language": "Documentary-style camera, real sky and skin tones, believable reflections, motivated lens and clear spatial geography.",
+      "use_for": "Travel ads, ferry scenes, destination reveals",
+      "prompt_seed": "Establish geography and a human motive before revealing location; edit to action and sound.",
+      "avoid": "Generic stock montage, fake landmarks"
+    },
+    {
+      "id": "kinetic-type",
+      "name": "Editorial kinetic typography",
+      "medium": "Motion design",
+      "visual_language": "Typographic hierarchy, single family with weight contrast, precise grids, rhythmic cuts and purposeful text movement.",
+      "use_for": "Lyrics, quotes, trailer titles",
+      "prompt_seed": "Time each reveal to a new word or beat; hold key phrases long enough to read.",
+      "avoid": "Random elastic effects, unreadable lettering"
+    }
+  ],
+  "prompts": [
+    {
+      "id": "cut-paper-vedanta",
+      "title": "Cut-paper philosophical exchange",
+      "medium": "animation",
+      "tags": [
+        "cut-paper",
+        "myth",
+        "dialogue"
+      ],
+      "template": "A 12-second 2D cut-paper theatre scene. On a quiet ochre battlefield at dusk, two clearly identifiable characters face each other in profile: [TEACHER] and [STUDENT]. The student asks [QUESTION] while keeping one hand tightened; the teacher answers [ANSWER] as their palm opens slowly. Three paper depth planes, visible cut edges, restrained shadow gaps, jointed pose changes and no camera movement until the final 2-second pullback. Continuity: identical silhouettes, costume colors, props and light direction in every shot. Include timed intelligible dialogue and quiet cloth/paper foley.",
+      "notes": "Stage poses separately, then animate controlled layers; dialogue must drive gesture.",
+      "origin": "original starter recipe; not scraped from external galleries"
+    },
+    {
+      "id": "red-eye-reveal",
+      "title": "Minimal red-eye reveal",
+      "medium": "animation",
+      "tags": [
+        "ink-red-silhouette",
+        "psychological",
+        "reveal"
+      ],
+      "template": "An almost motionless black kneeling silhouette occupies the lower third of an empty off-white stage. A single low voice says [CONFESSION]. Hold 2 seconds in absolute stillness. On the final words [DEMAND], the head rises by 4 degrees and only the two eye shapes turn saturated red. Do not change face outline or costume silhouette. Hard cut to silence. 8 seconds, 24 fps, one camera setup.",
+      "notes": "Strength comes from restraint and the delayed alteration, not effects.",
+      "origin": "original starter recipe; not scraped from external galleries"
+    },
+    {
+      "id": "manga-reaction",
+      "title": "Manga emotional reaction sequence",
+      "medium": "manga",
+      "tags": [
+        "seinen-ink",
+        "continuity",
+        "acting"
+      ],
+      "template": "One page of six right-to-left manga panels: [CHARACTER] learns [FACT] while trying not to show emotion. Panel 1: establish geography. Panel 2: the other person's small gesture. Panel 3: the hand gripping a prop. Panel 4: a close-up with a 1 mm change around the eyes. Panel 5: a wide silent panel with negative space. Panel 6: a choice shown through action, not a speech bubble. Black brush ink, controlled screentone, legible empty lettering zones. Preserve costume and prop ownership.",
+      "notes": "Read in order without captions first; show a consequential change.",
+      "origin": "original starter recipe; not scraped from external galleries"
+    },
+    {
+      "id": "natural-travel",
+      "title": "Human-first ferry travel ad",
+      "medium": "film",
+      "tags": [
+        "travel-editorial",
+        "ad",
+        "ferry"
+      ],
+      "template": "A grounded 8-second destination ad. 0–2 s: [HUMAN PROBLEM] shown through a readable action in a real environment. 2–4 s: a visual match-cut motivated by that action. 4–7 s: reveal a real ferry traversing clear Andaman water, with believable scale, wake, hull geometry and sunlight. 7–8 s: clean CTA [BRAND]. Shoot like a travel documentary, preserve identity/wardrobe across cut, let sea and wind audio lead music.",
+      "notes": "Verify geography, boat scale and visual match before final export.",
+      "origin": "original starter recipe; not scraped from external galleries"
+    },
+    {
+      "id": "brush-hero",
+      "title": "Sumi-e hero illustration",
+      "medium": "image",
+      "tags": [
+        "sumi-e",
+        "character",
+        "hero"
+      ],
+      "template": "[CHARACTER] pauses at [PLACE] before [ACTION], viewed from a low three-quarter angle. One dark dry-brush contour and two light wash planes describe the body; a distant mountain dissolves into open paper. Reserve blank space above the gesture, single vermilion detail, cold gray ink on textured rice paper, 4:5. Do not render facial photorealism.",
+      "notes": "One clear focal gesture; check silhouette at thumbnail size.",
+      "origin": "original starter recipe; not scraped from external galleries"
+    },
+    {
+      "id": "sakura-action",
+      "title": "Cel-animated action key poses",
+      "medium": "animation",
+      "tags": [
+        "cel-anime",
+        "action",
+        "sakuga"
+      ],
+      "template": "Animate [CHARACTER] choosing to [ACTION] against [OPPONENT] as three readable beats: 0–1 s anticipation and shift of weight; 1–2 s fast decisive action on a coherent arc with 2 expressive smears; 2–3 s reaction and contact settle. 2D hand-painted cels over a stable painted background, fixed outfit and model sheet, stable screen direction, no automatic texture morphing.",
+      "notes": "Test contact frame and motion arc before extending the shot.",
+      "origin": "original starter recipe; not scraped from external galleries"
+    },
+    {
+      "id": "kinetic-quote",
+      "title": "Kinetic type for one sentence",
+      "medium": "motion design",
+      "tags": [
+        "kinetic-type",
+        "typography",
+        "social"
+      ],
+      "template": "9:16 vertical type-only motion graphic, 6 seconds. Display [SENTENCE] in four semantic clauses with one clean sans-serif type family and two weights. New clause enters only on corresponding syllable; previous words remain for context except at a purposeful emotional turn. Restrained black, warm white and one accent. 20% title-safe margins, crisp export. Include deliberate silence or [SOUND] cue.",
+      "notes": "Review at phone size; audio synchronization is part of acceptance.",
+      "origin": "original starter recipe; not scraped from external galleries"
+    },
+    {
+      "id": "pixel-character",
+      "title": "Coherent pixel character spritesheet",
+      "medium": "game art",
+      "tags": [
+        "pixel16",
+        "sprites",
+        "consistency"
+      ],
+      "template": "Create a production 16-bit game sprite sheet for [CHARACTER] at native [WIDTH]x[HEIGHT] per pose: idle 4, walk 6, action 4, recovery 2. Stable palette of <=16 colors, same ground contact line and pivot in every cell, recognizable silhouette, consistent light from upper left, transparent background, no blurry upscaling. Include a tiny test room frame for in-game readability.",
+      "notes": "Check native grid, cell alignment and state transitions.",
+      "origin": "original starter recipe; not scraped from external galleries"
+    },
+    {
+      "id": "riso-poster",
+      "title": "Risograph collage poster",
+      "medium": "image",
+      "tags": [
+        "risograph",
+        "editorial"
+      ],
+      "template": "Create a 4:5 editorial poster about [THEME] using cut-paper geometry, a two-ink risograph palette (deep ultramarine and vermilion), physical halftone texture, controlled 1 mm color misregistration and one visual metaphor [METAPHOR]. Asymmetrical composition with a strong empty-text zone. No glossy gradients, no arbitrary assets.",
+      "notes": "Concept and type hierarchy must survive black-and-white preview.",
+      "origin": "original starter recipe; not scraped from external galleries"
+    },
+    {
+      "id": "noir-scene",
+      "title": "Noir visual reveal",
+      "medium": "film",
+      "tags": [
+        "noir",
+        "cinema",
+        "lighting"
+      ],
+      "template": "A 10-second noir scene in [LOCATION]. [CHARACTER] must decide whether to [DECISION]. Begin with a wide composition where an architectural shadow hides the crucial object; motivate a single lateral camera shift that reveals it without changing the light source or room geography. Hard side light, restrained sound, meaningful last-frame eyeline. No gratuitous fog or lens flare.",
+      "notes": "The camera reveals information, not decorative movement.",
+      "origin": "original starter recipe; not scraped from external galleries"
+    }
+  ]
+}
