@@ -5,6 +5,12 @@
 **The point:** find the right *kind* of reference for your next creative decision — and know what each site actually provides before opening it.
 
 
+## ChatGPT MCP server
+
+Use the live, read-only [Frames & Prompts MCP server](https://frames-prompts-mcp.vercel.app/) to search the curated reference catalog, explore original visual styles and prompt recipes, and inspect accessible public source pages. [Tools and setup](mcp/README.md).
+
+**Endpoint:** `https://frames-prompts-mcp.vercel.app/mcp`. In ChatGPT web, open Plugins → **+** → **Add custom MCP server**, choose **No authentication**, paste the endpoint, create and install the plugin. External galleries are linked research sources, not fully mirrored prompt collections.
+
 ## For agents: make the work, not just the prompt
 
 The links below are research material. To turn them into an image, animated film, storyboard, motion comic, or game, start with [AGENTS.md](AGENTS.md), which routes each task to a production playbook and requires inspection of the actual result.
